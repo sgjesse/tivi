@@ -122,6 +122,7 @@ android {
             shrinkResources true
             minifyEnabled true
             proguardFiles 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
 
